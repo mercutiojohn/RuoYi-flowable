@@ -24,8 +24,9 @@
     left: 0;
     z-index: 1001;
     overflow: hidden;
-    -webkit-box-shadow: 2px 0 6px rgba(0,21,41,.35);
-    box-shadow: 2px 0 6px rgba(0,21,41,.35);
+    // -webkit-box-shadow: 2px 0 6px rgba(0,21,41,.35);
+    // box-shadow: 2px 0 6px rgba(0,21,41,.35);
+    border-right: 1px solid #DCDCDE89;
 
     // reset element-ui css
     .horizontal-collapse-transition {
@@ -99,10 +100,10 @@
 
     & .theme-dark .nest-menu .el-submenu>.el-submenu__title,
     & .theme-dark .el-submenu .el-menu-item {
-      background-color: $base-sub-menu-background !important;
+      // background-color: $base-sub-menu-background !important;
 
       &:hover {
-        background-color: $base-sub-menu-hover !important;
+        // background-color: $base-sub-menu-hover !important;
       }
     }
   }

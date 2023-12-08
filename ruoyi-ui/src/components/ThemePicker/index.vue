@@ -8,6 +8,7 @@
 </template>
 
 <script>
+// 太野生了 先注掉了
 const version = require('element-ui/package.json').version // element-ui version from node_modules
 const ORIGINAL_THEME = '#409EFF' // default color
 
@@ -58,7 +59,7 @@ export default {
             styleTag.setAttribute('id', id)
             document.head.appendChild(styleTag)
           }
-          styleTag.innerText = newStyle
+          // styleTag.innerText = newStyle
         }
       }
 

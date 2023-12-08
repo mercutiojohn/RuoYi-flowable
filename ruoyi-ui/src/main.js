@@ -3,7 +3,9 @@ import Vue from 'vue'
 import Cookies from 'js-cookie'
 
 import Element from 'element-ui'
-import './assets/styles/element-variables.scss'
+// import './assets/styles/element-variables.scss'
+import './assets/styles/el-color.scss'
+import './assets/styles/el-animations.scss'
 
 import '@/assets/styles/index.scss' // global css
 import '@/assets/styles/ruoyi.scss' // ruoyi css
